@@ -45,10 +45,10 @@ function launch(vm) {
       alert('Please configure the custom VM options by specifying at least one of the following: CDROM, Floppy Disk, HDA in the input fields below.');
       return;
     }
-    window.open('https://pierrestro.github.io/CloudVM/launch.html?type=Custom&ram=' + String(ram) + '&vram=' + String(vram) + '&cd=' + String(cd) + '&floppy=' + String(floppy) + '&hd=' + String(hd) + '&acpi=' + String(acpiEnabled) + '&async=' + String(asyncEnabled) + '&relay=' + String(networkRelay), '_blank');
+    window.open('https://pierrestro.github.io/CloudVM/public/launch.html?type=Custom&ram=' + String(ram) + '&vram=' + String(vram) + '&cd=' + String(cd) + '&floppy=' + String(floppy) + '&hd=' + String(hd) + '&acpi=' + String(acpiEnabled) + '&async=' + String(asyncEnabled) + '&relay=' + String(networkRelay), '_blank');
   }
   else {
-    window.location.assign('https://pierrestro.github.io/CloudVM/launch.htm?type=' + vm + '&ram=' + String(ram) + '&vram=' + String(vram) + '&acpi=' + String(acpiEnabled) + '&async=' + String(asyncEnabled) + '&relay=' + String(networkRelay));
+    window.location.assign('https://pierrestro.github.io/CloudVM/public/launch.html?type=' + vm + '&ram=' + String(ram) + '&vram=' + String(vram) + '&acpi=' + String(acpiEnabled) + '&async=' + String(asyncEnabled) + '&relay=' + String(networkRelay));
   }
 }
 
