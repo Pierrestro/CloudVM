@@ -5,7 +5,7 @@
             "url": "https://storage.googleapis.com/vm-general-storage/ArchLinux/arch_state.bin"
         },
         "filesystem": {
-            "baseurl": "https://https://k.copy.sh/arch/"
+            "baseurl": "https://k.copy.sh/arch/"
         },
         "cmdline": [
             "ip link set eth0 down",
